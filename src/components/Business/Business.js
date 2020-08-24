@@ -19,8 +19,10 @@ class Business extends React.Component {
           </div>
           <div className="Business-reviews">
             <h3>{this.props.business.category}</h3>
-            <h3 className="rating">{this.props.business.rating} stars</h3>
-            <p>{this.props.business.reviewCount}</p>
+            <h3 className="rating">{this.props.business.price}</h3>
+            <p>{this.props.business.rating} stars</p>
+            {/* <p>{this.props.business.start}</p> */}
+            {/* <p>{this.props.business.hours.open.end}</p> */}
           </div>
         </div>
       </div>

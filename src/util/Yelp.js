@@ -28,8 +28,9 @@ const Yelp = {
               category: business.categories[0].title,
               price: business.price,
               rating: business.rating,
-              //   start: business.hours[0].open[0].start,
-              //   end: business.hours[0].open[0].end,
+              reviewCount: business.review_count,
+              start: business.hours[0].open[0].start,
+              end: business.hours[0].open[0].end,
             };
           });
         }
